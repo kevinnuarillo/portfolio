@@ -2,17 +2,17 @@
 
 @font-face {
     font-family: sfprobold;
-    src: url(/font/SF-Pro-Display-Bold.otf);
+    src: url(../font/SF-Pro-Display-Bold.otf);
 }
 
 @font-face {
     font-family: sfproreg;
-    src: url(/font/SF-Pro-Display-Regular.otf);
+    src: url(../font/SF-Pro-Display-Regular.otf);
 }
 
 @font-face {
     font-family: sfprothin;
-    src: url(/font/SF-Pro-Display-Thin.otf);
+    src: url(../font/SF-Pro-Display-Thin.otf);
 }
 
 /* base  */
