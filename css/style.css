@@ -160,13 +160,14 @@ a {
 	line-height: 1.5rem;
 }
 
-.hero h2 {
+/* .hero a {
 	font-family: sfproreg;
 	font-weight: 300;
 	display: flex;
 	align-items: center;
 	margin-top: 2rem;
-}
+	color: #c6c6c6;
+} */
 
 /* Experience */
 
