@@ -98,6 +98,10 @@ a {
 		padding: 4rem 0 0 3rem;
 		transition: .5s;
 	}
+
+	.piqy{
+		max-width: 100%;
+	}
 }
 
 .nav-close {
@@ -518,8 +522,63 @@ footer .box-contact {
 		font-size: 1rem;
 	}
 
+	.piqy{
+		max-width: 80%;
+	}
 }
 
+/*===== SCROLL TOP ======*/
+.scrolltop {
+	position: fixed;
+	right: 1rem;
+	bottom: -20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.5rem;
+	background: rgb(230, 227, 227);
+	border-radius: 0.5rem;
+	z-index: 10;
+	transition: 0.4s;
+	visibility: hidden;
+ }
+ 
+ .scrolltop:hover {
+	background-color: rgb(134, 132, 132);
+ }
+ 
+ .scrolltop__icon {
+	font-size: 10rem;
+	color: rgb(255, 255, 255);
+ }
+ 
+ /* Show Scroll Top */
+ .show-scroll {
+	visibility: visible;
+	bottom: 1.5rem;
+ }
 
+/* piqy */
+.piqy{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/* margin-top: 80px; */
+	max-width: 100%;
+}
 
+.img_project {
+	margin-top: 80px;
+}
 
+/* go top button  */
+.gotopbtn{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #fefefe;
+	bottom: 20px;
+	right: 50px;
+
+	text-decoration: none;
+}
