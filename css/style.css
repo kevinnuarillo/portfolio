@@ -293,7 +293,7 @@ a {
 /* project */
 
 .featured-project .container-medium hr {
-	border-color: white;
+	border-color: #c6c6c6;
 	margin-bottom: 50px;
 }
 
@@ -507,8 +507,8 @@ footer .box-contact {
 		transition: all .3s ease-in-out;
 	}
 
-	.project img {
-		transform: scale(1.04);
+	.project:hover img {
+		transform: scale(1.02);
 	}
 
 	/* footer */
